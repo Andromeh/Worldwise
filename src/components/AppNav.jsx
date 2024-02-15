@@ -3,23 +3,16 @@ import styles from "./AppNav.module.css";
 
 function AppNav() {
   return (
-    <div className={styles.nav}>
-      <nav className={styles.nav}>
-        <ul>
-          <li>
-            <NavLink to="/product">Product</NavLink>
-          </li>
-          <li>
-            <NavLink to="/pricing">Pricing</NavLink>
-          </li>
-          <li>
-            <NavLink to="/login" className={styles.ctaLink}>
-              Login
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav className={styles.nav}>
+      <ul>
+        <li>
+          <NavLink to="cities">Cities</NavLink>
+        </li>
+        <li>
+          <NavLink to="countries">Countries</NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
