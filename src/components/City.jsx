@@ -1,3 +1,4 @@
+import { useParams } from "react-router-dom";
 import ButtonBack from "./ButtonBack";
 import styles from "./City.module.css";
 
@@ -9,7 +10,9 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-function City({ city }) {
+function City({ cities }) {
+  const { id } = useParams();
+  const city = cities.find((city) => city.id === id);
   const { cityName, emoji, date, notes } = city;
 
   return (
