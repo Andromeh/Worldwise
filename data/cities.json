@@ -47,6 +47,18 @@
         "lat": "55.677584411089526",
         "lng": "37.61718750000001"
       }
+    },
+    {
+      "id": "893e",
+      "cityName": "Bristol Channel",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-05-04T21:52:15.331Z",
+      "notes": "",
+      "position": {
+        "lat": "51.467696956223385",
+        "lng": "-3.0761718750000004"
+      }
     }
   ]
 }
